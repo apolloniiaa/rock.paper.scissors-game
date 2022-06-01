@@ -151,7 +151,8 @@ div.fadeIn {
 @media (max-width: 1024px) {
   .score {
     flex-direction: column;
-    padding-top: 6rem;
+
+    padding-top: 9rem;
   }
   .score h2 {
     font-size: 3rem;
@@ -159,9 +160,15 @@ div.fadeIn {
   .score p {
     font-size: 3rem;
   }
+  .match {
+    top: 65%;
+  }
 }
 
 @media (max-width: 780px) {
+  .score {
+    padding-top: 7rem;
+  }
   .score h2 {
     font-size: 2rem;
   }
@@ -183,7 +190,7 @@ div.fadeIn {
     margin-left: 1rem;
   }
   .winner {
-    margin-top: 10rem;
+    margin-top: 13rem;
     font-size: 1rem;
     line-height: 1.3;
   }
@@ -193,5 +200,8 @@ div.fadeIn {
   .options,
   .container {
     margin-bottom: 10px;
+  }
+  .match {
+    top: 50%;
   }
 }
